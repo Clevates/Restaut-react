@@ -1,0 +1,37 @@
+:root {
+  --paper: #f5f4ee;
+  --white: #fffefa;
+  --ink: #25342b;
+  --green: #475b47;
+  --orange: #d6754c;
+  --muted: #777b70;
+  --rule: #e7e5dc;
+  --serif: 'Iowan Old Style', 'Baskerville Old Face', 'Palatino Linotype', Georgia, serif;
+  --sans: 'Aptos', 'Segoe UI', sans-serif;
+  --mono: 'Cascadia Code', Consolas, monospace;
+
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--white);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 360px;
+  margin: 0;
+  font-size: 14px;
+}
+
+::selection {
+  background: #dce5d8;
+  color: var(--ink);
+}
